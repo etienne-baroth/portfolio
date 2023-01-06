@@ -3,7 +3,8 @@
 body {
     background-color: rgb(63,222,251);
     background: radial-gradient(circle, rgba(63,222,251,0.894016981792717) 38%, rgba(70,252,210,1) 89%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Amiko', sans-serif;
+    letter-spacing: 2px;
     color: white;
     margin: 10% 0;
 }
