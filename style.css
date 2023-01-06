@@ -1,0 +1,75 @@
+/* BODY */
+
+body {
+    background-color: rgb(63,222,251);
+    background: radial-gradient(circle, rgba(63,222,251,0.894016981792717) 38%, rgba(70,252,210,1) 89%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+/* TITRE */
+
+h1 {
+    text-align: center;
+}
+
+/* LIENS */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.link-btn-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .link-btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .link-btn-hover:focus {
+    outline: none;
+  }
+  
+  .link-btn-hover.b1 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
